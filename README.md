@@ -1,9 +1,3 @@
-## Student Information
-- Name: Christian Jones
-- Email: j342@umbc.edu
-- Student ID: EP85577
-- Class Section: 05
-
 ## Project Description
 This project implements a Tic Tac Toe game as a loadable Linux kernel module. The module creates a character device at /dev/tictactoe that accepts game commands through write operations and returns game state through read operations. The implementation handles game logic including move validation, win condition detection, and a computer opponent that makes random moves using the kernel's random number generator.
 
